@@ -1,0 +1,17 @@
+.blinking-cursor {
+  font-weight: bold;
+  font-size: 5.2rem;
+  color: white;
+  animation: blink 1s steps(2, start) infinite;
+}
+
+@keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+
+/* Optional: Change cursor to pointer when hovering over the video */
+.video-container video {
+  cursor: pointer;
+}
